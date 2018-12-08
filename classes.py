@@ -1,15 +1,15 @@
 class Patient():
-    def __init__(self, firstName, lastName, age):
-        self.firstName = firstName
-        self.lastName = lastName
+    def __init__(self, firstname, lastname, age):
+        self.firstname = firstname
+        self.lastname = lastname
         self.age = age
 
     def checkMinor(self):
         if self.age < 21:
-            print self.firstName + ' ' + self.lastName + ' is Minor'
+            print self.firstname + ' ' + self.lastname + ' is Minor'
 
-    def changeLastName(self, newLastName):
-        self.lastName = newLastName
+    def changeLastName(self, newlastname):
+        self.lastname = newlastname
 
 
 pid01 = Patient('Huzaifa', 'Ahmed', 20)
