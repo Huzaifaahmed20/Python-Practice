@@ -1,9 +1,9 @@
 # print "Hello World"
 
-name = 'Mark'
-name = 'Ace'
-name = 'Huzaifa'
-name = 'Osama'
+# name = 'Mark'
+# name = 'Ace'
+# name = 'Huzaifa'
+# name = 'Osama'
 
 # cities = ["Atlanta", "Baltimore", "Chicago", "Denver", "Los Angeles", "Seattle"]
 
@@ -20,9 +20,9 @@ name = 'Osama'
 #     'Uni':'SSUET'
 # }
 
-# print my_data.items()
-# print my_date.keys()
-# print my_data.values()
+# print(my_data.items())
+# print( my_data.keys())
+# print(my_data.values())
 # for eachKey, eachValue in my_data.items():
 #     print 'My ' + eachKey + ' is ' + str(eachValue)
 
@@ -69,3 +69,38 @@ name = 'Osama'
 
 
 # lambda funtion
+
+
+# myArr = [1, 2, 3, 4, 5]
+# k = 6
+#
+# mySum = sum(myArr)
+# print mySum
+
+# for num in myArr:
+    # ind = myArr.index(num)
+    # print()
+
+
+
+
+# x = lambda a: a + 1
+#
+# print(x(4))
+
+
+
+
+
+# mystr = "banana"
+# myit = iter(mystr)
+# # print(myit)
+#
+# print(next(myit))
+# print(next(myit))
+# print(next(myit))
+# print(next(myit))
+# print(next(myit))
+# print(next(myit))
+
+
